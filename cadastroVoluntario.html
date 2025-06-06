@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>help us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body class="p-0 m-0 border-0">
+
+    <!-- SEÇÃO 1 - MENU -->
+    <nav class="navbar navbar-expand-lg bg-body-tema">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light fw-bold" href="index.html">help us</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html#doar-voluntariar">Doações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html#doar-voluntariar">Voluntários</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html#resultados">Resultados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SEÇÃO - FORMULÁRIO DE VOLUNTÁRIO -->
+    <section id="cadastro-voluntario" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-tema fw-bold">Cadastro de Voluntário</h2>
+            <p class="text-center mb-5">Preencha o formulário abaixo para se cadastrar como voluntário.</p>
+
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+
+                    <form id="form-voluntario">
+
+                        <!-- Nome -->
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-semibold">Nome completo</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-semibold">E-mail</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+
+                        <!-- Cidade -->
+                        <div class="mb-3">
+                            <label for="cidade" class="form-label fw-semibold">Cidade</label>
+                            <input type="text" class="form-control" id="cidade" required>
+                        </div>
+
+                        <!-- Área de atuação -->
+                        <div class="mb-4">
+                            <label for="area" class="form-label fw-semibold">Área de atuação</label>
+                            <select class="form-select" id="area" required>
+                                <option value="" selected disabled>Selecione uma opção</option>
+                                <option value="Triagem">Triagem</option>
+                                <option value="Transporte">Transporte</option>
+                                <option value="Apoio em locais de coleta">Apoio em locais de coleta</option>
+                            </select>
+                        </div>
+
+                        <!-- Botão -->
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success">Enviar Cadastro</button>
+                        </div>
+
+                    </form>
+
+                    <div class="modal fade" id="modalSucessoCadastroVoluntario" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button type="button" class="btn-close offset-11" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                    <p>Cadastro realizado. Após análise do cadastro e logística de voluntariado
+                                        entraremos em contato via email.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a type="button" class="btn btn-success" href="index.html">Fechar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SEÇÃO 7 - FOOTER-->
+    <footer id="contatos" class="bg-body-tema py-3">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+
+            <!-- Logo -->
+            <div class="mb-2 mb-md-0">
+                <h2 class="text-light fw-bold">help us</h2>
+            </div>
+
+            <!-- Contatos -->
+            <div class="text-md-start">
+                <p class="fw-bold text-light">Entre em contato</p>
+                <div class="text-center text-md-end text-light">
+                    <span class="me-3"><i class="bi bi-telephone"></i> (00) 00000-0000</span>
+                    <span class="me-3"><i class="bi bi-envelope"></i> contato@seudominio.com</span>
+
+                    <!-- Redes Sociais -->
+                    <a href="#" class="text-dark me-2"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-dark me-2"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-dark"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script src="assets/scripts/script-cadastro-voluntario.js"></script>
+
+</body>
+
+</html>

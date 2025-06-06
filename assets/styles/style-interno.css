@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bg-body-tema {
+    background-color: #393939;
+}
+
+.text-tema {
+    color: #393939;
+}
+
+.btn-tema {
+    background-color: #393939;
+}
+
+.btn-tema:hover {
+    background-color: #888;
+}
+
+
+#entrarVoluntario {
+    height: 460px;
+    justify-content: center;
+}
+
+.caixa-entrar-voluntario {
+    border-radius: 15px;
+}
+
+#opcoesVoluntarios {
+    height: 460px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    button, .btn {
+        width: 90%;
+        max-width: 300px;
+    }
+      
+}

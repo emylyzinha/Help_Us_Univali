@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bg-body-tema {
+    background-color: #38726c;
+}
+
+.text-tema {
+    color: #38726c;
+}
+
+.btn-tema {
+    background-color: #38726c;
+    border: 3px solid white;
+}
+
+.btn-tema:hover {
+    background-color: #529c95;
+    border: 3px solid white;
+}
+
+@media (max-width: 575.98px) {
+    
+    .inicio {
+        background-image: url("../imagens/img-secao-01.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+    #sobre {
+        background-image: url(../imagens/frame-01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 70%;
+        /* ou ajuste conforme o layout */
+    }
+
+    .doar {
+        background-image: url(../imagens/img-secao-04-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+    .voluntariar {
+        background-image: url(../imagens/img-secao-04-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+
+    #processos {
+        background-image: url(../imagens/frame-02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 70%;
+    }
+
+    #processos p {
+        font-size: 10px;
+    }
+
+    img.setas {
+        width: 30px;
+    }
+
+    .img-processos {
+        width: 80px;
+    }
+
+    
+    #resultados {
+        background-image: url(../imagens/img-secao-06.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 1400px;
+        /* ou ajuste conforme o layout */
+    }
+
+    img.resultados {
+        width: 40px;
+    }
+
+    #resultados p {
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    .item-resultado {
+        height: 180px;
+    }
+    
+    #doacoesPix {
+        background-image: url(../imagens/frame-01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 700px;
+        align-content: center;
+        padding: 20px;
+    }
+
+    #doacoesPix .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .caixa-qr-code {
+        width: 220px;
+        height: 320px;
+        background-color: white;
+        border: 1px solid #38726c;
+        border-radius: 15px;
+    }
+
+    .qr-code {
+        width: 120px;
+    }
+
+    .textos-doacoes-pix {
+        margin-top: 20px;
+    }
+
+    .formulario-doar-pix {
+        background-image: url(../imagens/img-secao-04-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 740px;
+    }
+
+    footer {
+        height: 120px;
+    }
+}
+
+@media (min-width: 576) and (max-width: 767.98px) {
+    .inicio {
+        background-image: url("../imagens/img-secao-01.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+    #sobre {
+        background-image: url(../imagens/frame-01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 70%;
+        /* ou ajuste conforme o layout */
+    }
+
+    .doar {
+        background-image: url(../imagens/img-secao-04-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+    .voluntariar {
+        background-image: url(../imagens/img-secao-04-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+
+    #processos {
+        background-image: url(../imagens/frame-02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 70%;
+    }
+
+    #processos p {
+        font-size: 12px;
+    }
+
+    img.setas {
+        width: 20px;
+    }
+
+    .img-processos {
+        width: 40px;
+    }
+
+    
+    #resultados {
+        background-image: url(../imagens/img-secao-06.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 800px;
+        /* ou ajuste conforme o layout */
+    }
+
+    img.resultados {
+        width: 60px;
+    }
+
+    #resultados p {
+        font-size: medium;
+        margin-left: 20px;
+    }
+
+    .item-resultado {
+        width: 320px;
+        height: 200px;
+    }
+
+    
+    #doacoesPix {
+        padding-top: 40px;
+        background-image: url(../imagens/frame-01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px;
+    }
+
+    .caixa-qr-code {
+        width: 220px;
+        height: 320px;
+        background-color: white;
+        border: 1px solid #38726c;
+        border-radius: 15px;
+    }
+
+    .qr-code {
+        width: 120px;
+    }
+
+    .textos-doacoes-pix {
+        margin-top: 100px;
+    }
+
+    .formulario-doar-pix {
+        background-image: url(../imagens/img-secao-04-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 740px;
+    }
+
+    footer {
+        height: 120px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .inicio {
+        background-image: url("../imagens/img-secao-01.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+    #sobre {
+        background-image: url(../imagens/frame-01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 70%;
+        /* ou ajuste conforme o layout */
+    }
+
+    .doar {
+        background-image: url(../imagens/img-secao-04-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+    .voluntariar {
+        background-image: url(../imagens/img-secao-04-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+
+    #processos {
+        background-image: url(../imagens/frame-02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 70%;
+    }
+
+    #processos p {
+        font-size: 12px;
+    }
+
+    img.setas {
+        width: 40px;
+    }
+
+    .img-processos {
+        width: 70px;
+    }
+
+    #resultados {
+        background-image: url(../imagens/img-secao-06.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 800px;
+        /* ou ajuste conforme o layout */
+    }
+
+    img.resultados {
+        width: 60px;
+    }
+
+    #resultados p {
+        font-size: medium;
+        margin-left: 20px;
+    }
+
+    .item-resultado {
+        width: 320px;
+        height: 200px;
+    }
+
+    
+    #doacoesPix {
+        padding-top: 40px;
+        background-image: url(../imagens/frame-01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px;
+    }
+
+    .caixa-qr-code {
+        width: 220px;
+        height: 320px;
+        background-color: white;
+        border: 1px solid #38726c;
+        border-radius: 15px;
+    }
+
+    .qr-code {
+        width: 150px;
+    }
+
+    .textos-doacoes-pix {
+        margin-top: 100px;
+    }
+
+    .formulario-doar-pix {
+        background-image: url(../imagens/img-secao-04-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 740px;
+    }
+
+    footer {
+        height: 120px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .inicio {
+        background-image: url("../imagens/img-secao-01.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+    #sobre {
+        background-image: url(../imagens/frame-01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 70%;
+        /* ou ajuste conforme o layout */
+    }
+
+    .doar {
+        background-image: url(../imagens/img-secao-04-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+    .voluntariar {
+        background-image: url(../imagens/img-secao-04-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+
+    #processos {
+        background-image: url(../imagens/frame-02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 70%;
+        /* ou ajuste conforme o layout */
+    }
+
+    img.setas {
+        width: 40px;
+    }
+
+    .img-processos {
+        width: 90px;
+    }
+    
+    #resultados {
+        background-image: url(../imagens/img-secao-06.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px;
+        /* ou ajuste conforme o layout */
+    }
+
+    img.resultados {
+        width: 50px;
+    }
+
+    #resultados p {
+        font-size: large;
+    }
+
+    
+    #doacoesPix {
+        padding-top: 40px;
+        background-image: url(../imagens/frame-01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px;
+    }
+
+    .caixa-qr-code {
+        width: 220px;
+        height: 320px;
+        background-color: white;
+        border: 1px solid #38726c;
+        border-radius: 15px;
+    }
+
+    .qr-code {
+        width: 150px;
+    }
+
+    .textos-doacoes-pix {
+        margin-top: 100px;
+    }
+
+    .formulario-doar-pix {
+        background-image: url(../imagens/img-secao-04-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 680px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    
+    .inicio {
+        background-image: url("../imagens/img-secao-01.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+    #sobre {
+        background-image: url(../imagens/frame-01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 70%;
+        /* ou ajuste conforme o layout */
+    }
+
+    .doar {
+        background-image: url(../imagens/img-secao-04-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+    .voluntariar {
+        background-image: url(../imagens/img-secao-04-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        /* ou ajuste conforme o layout */
+    }
+
+
+    #processos {
+        background-image: url(../imagens/frame-02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 70%;
+        /* ou ajuste conforme o layout */
+    }
+
+    img.setas {
+        width: 80px;
+    }
+
+    .img-processos {
+        width: 120px;
+    }
+    
+    #resultados {
+        background-image: url(../imagens/img-secao-06.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px;
+        /* ou ajuste conforme o layout */
+    }
+
+    img.resultados {
+        width: 60px;
+    }
+
+    #resultados p {
+        font-size: large;
+    }
+
+    #doacoesPix {
+        padding-top: 40px;
+        background-image: url(../imagens/frame-01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px;
+    }
+
+    .caixa-qr-code {
+        width: 250px;
+        height: 400px;
+        background-color: white;
+        border: 1px solid #38726c;
+        border-radius: 15px;
+    }
+
+    .qr-code {
+        width: 200px;
+    }
+
+    .textos-doacoes-pix {
+        margin-top: 100px;
+    }
+
+    .formulario-doar-pix {
+        background-image: url(../imagens/img-secao-04-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 680px;
+    }
+ }
